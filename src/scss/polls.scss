@@ -1,0 +1,47 @@
+.questions {
+  margin: 20px 0;
+
+  &--item {
+    margin: 10px 0;
+    display: block;
+    background: #eee;
+    border: 1px solid #b1b1b1;
+    padding: 10px;
+    box-shadow: 0 0 5px #b1b1b1;
+
+    &:hover {
+      cursor: pointer;
+      background: #ebebeb;
+    }
+
+    &:active {
+      cursor: pointer;
+      background: #bcbcbc;
+    }
+
+    h3 {
+      margin: 0;
+    }
+  }
+}
+
+.question {
+
+}
+
+.vote {
+  margin: 5px;
+  display: block;
+  position: relative;
+  &-rect {
+    border: 1px solid #eee;
+    padding: 5px;
+    background: #eee;
+  }
+
+  &-numbers {
+    position: absolute;
+    right:5px;
+    top: 10px;
+  }
+}
